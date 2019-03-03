@@ -1,0 +1,523 @@
+***Supply depot initialized***
+***Printing supply depot***
+[1]:  0 remain	[2]:  0 remain	[3]:  4 remain	[4]:  2 remain	[5]:  4 remain	
+[6]:  4 remain	[7]:  3 remain	[8]:  3 remain	[9]:  2 remain	[10]: 3 remain	
+[11]: 4 remain	[12]: 3 remain	[13]: 2 remain	[14]: 4 remain	[15]: 3 remain	
+[16]: 4 remain	[17]: 3 remain	[18]: 2 remain	[19]: 3 remain	[20]: 3 remain	
+[21]: 3 remain	[22]: 4 remain	[23]: 3 remain	[24]: 4 remain	[25]: 4 remain	
+[26]: 0 remain	[27]: 3 remain	[28]: 3 remain	[29]: 4 remain	[30]: 4 remain	
+[31]: 4 remain	[32]: 2 remain	[33]: 3 remain	[34]: 0 remain	[35]: 4 remain	
+[36]: 4 remain	[37]: 4 remain	[38]: 3 remain	[39]: 4 remain	[40]: 3 remain	
+[41]: 3 remain	[42]: 2 remain	[43]: 4 remain	[44]: 4 remain	[45]: 3 remain	
+***End supply depot printout***
+
+***Junkyard initialized***
+***Printing junkyard***
+tank1  with 3 broken parts ( 8 9 1 ) and 8 good parts ( 2 3 4 5 6 7 10 11 )
+tank2  with 2 broken parts ( 6 4 ) and 9 good parts ( 2 8 10 12 14 16 18 20 22 )
+tank3  with 3 broken parts ( 12 33 24 ) and 8 good parts ( 3 6 9 15 18 21 27 30 )
+wheel1 with 7 broken parts ( 36 33 34 37 40 31 35 ) and 3 good parts ( 32 38 39 )
+wheel2 with 6 broken parts ( 37 36 43 44 45 41 ) and 4 good parts ( 38 39 40 42 )
+HT     with 3 broken parts ( 34 39 2 ) and 12 good parts ( 1 3 4 5 31 32 33 35 36 37 38 40 )
+***There are 6 vehicles total***
+
+
+
+ VEHICLE MANAGEMENT SYSTEM
+-----------------------------
+ DAYS TO SIMULATE: 4
+-----------------------------
+ SIMULATING DAY 1
+-----------------------------
+***MAKING 5 VEHICLES***
+Made HT     with 7 broken parts ( 40 37 38 34 1 3 36 ) and 8 good parts ( 2 4 5 31 32 33 35 39 )
+--Adding to junkyard--
+Made tank1  with 4 broken parts ( 4 2 1 7 ) and 7 good parts ( 3 5 6 8 9 10 11 )
+--Adding to repair queue--
+Made tank2  with 3 broken parts ( 10 6 22 ) and 8 good parts ( 2 4 8 12 14 16 18 20 )
+--Adding to repair queue--
+Made HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 5 good parts ( 1 2 5 36 37 )
+--Adding to junkyard--
+Made HT     with 4 broken parts ( 5 32 40 35 ) and 11 good parts ( 1 2 3 4 31 33 34 36 37 38 39 )
+--Adding to repair queue--
+
+***Adding from repair queue into bay 1***
+number of broken parts = 4
+partList[0] = 4   partList[1] = 2   partList[2] = 1   partList[3] = 7   
+
+***Searching junkyard for part 4***
+HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 5 good parts ( 1 2 5 36 37 )
+HT     with 7 broken parts ( 40 37 38 34 1 3 36 ) and 8 good parts ( 2 4 5 31 32 33 35 39 )
+--MATCH. JUNK V'S PART REMOVED--
+List of good parts: 2 5 31 32 33 35 39 
+--CURRENT V'S BAD PART REMOVED AND ADDED TO GOOD PARTS--
+List of good parts: 4 3 5 6 8 9 10 11 
+
+***Searching junkyard for part 2***
+HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 5 good parts ( 1 2 5 36 37 )
+--MATCH. JUNK V'S PART REMOVED--
+List of good parts: 1 5 36 37 
+--CURRENT V'S BAD PART REMOVED AND ADDED TO GOOD PARTS--
+List of good parts: 2 4 3 5 6 8 9 10 11 
+
+***Searching junkyard for part 1***
+HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 4 good parts ( 1 5 36 37 )
+--MATCH. JUNK V'S PART REMOVED--
+List of good parts: 5 36 37 
+--CURRENT V'S BAD PART REMOVED AND ADDED TO GOOD PARTS--
+List of good parts: 1 2 4 3 5 6 8 9 10 11 
+
+***Searching junkyard for part 7***
+HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 3 good parts ( 5 36 37 )
+HT     with 7 broken parts ( 40 37 38 34 1 3 36 ) and 7 good parts ( 2 5 31 32 33 35 39 )
+tank1  with 3 broken parts ( 8 9 1 ) and 8 good parts ( 2 3 4 5 6 7 10 11 )
+--MATCH. JUNK V'S PART REMOVED--
+List of good parts: 2 3 4 5 6 10 11 
+--CURRENT V'S BAD PART REMOVED AND ADDED TO GOOD PARTS--
+List of good parts: 7 1 2 4 3 5 6 8 9 10 11 
+number of broken parts = 0
+
+***Adding from repair queue into bay 2***
+number of broken parts = 3
+partList[0] = 10   partList[1] = 6   partList[2] = 22   
+
+***Searching junkyard for part 10***
+HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 3 good parts ( 5 36 37 )
+HT     with 7 broken parts ( 40 37 38 34 1 3 36 ) and 7 good parts ( 2 5 31 32 33 35 39 )
+tank1  with 3 broken parts ( 8 9 1 ) and 7 good parts ( 2 3 4 5 6 10 11 )
+--MATCH. JUNK V'S PART REMOVED--
+List of good parts: 2 3 4 5 6 11 
+--CURRENT V'S BAD PART REMOVED AND ADDED TO GOOD PARTS--
+List of good parts: 10 2 4 8 12 14 16 18 20 
+
+***Searching junkyard for part 6***
+HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 3 good parts ( 5 36 37 )
+HT     with 7 broken parts ( 40 37 38 34 1 3 36 ) and 7 good parts ( 2 5 31 32 33 35 39 )
+tank1  with 3 broken parts ( 8 9 1 ) and 6 good parts ( 2 3 4 5 6 11 )
+--MATCH. JUNK V'S PART REMOVED--
+List of good parts: 2 3 4 5 11 
+--CURRENT V'S BAD PART REMOVED AND ADDED TO GOOD PARTS--
+List of good parts: 6 10 2 4 8 12 14 16 18 20 
+
+***Searching junkyard for part 22***
+HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 3 good parts ( 5 36 37 )
+HT     with 7 broken parts ( 40 37 38 34 1 3 36 ) and 7 good parts ( 2 5 31 32 33 35 39 )
+tank1  with 3 broken parts ( 8 9 1 ) and 5 good parts ( 2 3 4 5 11 )
+tank2  with 2 broken parts ( 6 4 ) and 9 good parts ( 2 8 10 12 14 16 18 20 22 )
+--MATCH. JUNK V'S PART REMOVED--
+List of good parts: 2 8 10 12 14 16 18 20 
+--CURRENT V'S BAD PART REMOVED AND ADDED TO GOOD PARTS--
+List of good parts: 22 6 10 2 4 8 12 14 16 18 20 
+number of broken parts = 0
+
+***Adding from repair queue into bay 3***
+number of broken parts = 4
+partList[0] = 5   partList[1] = 32   partList[2] = 40   partList[3] = 35   
+
+***Searching junkyard for part 5***
+HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 3 good parts ( 5 36 37 )
+--MATCH. JUNK V'S PART REMOVED--
+List of good parts: 36 37 
+--CURRENT V'S BAD PART REMOVED AND ADDED TO GOOD PARTS--
+List of good parts: 5 1 2 3 4 31 33 34 36 37 38 39 
+
+***Searching junkyard for part 32***
+HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 2 good parts ( 36 37 )
+HT     with 7 broken parts ( 40 37 38 34 1 3 36 ) and 7 good parts ( 2 5 31 32 33 35 39 )
+--MATCH. JUNK V'S PART REMOVED--
+List of good parts: 2 5 31 33 35 39 
+--CURRENT V'S BAD PART REMOVED AND ADDED TO GOOD PARTS--
+List of good parts: 32 5 1 2 3 4 31 33 34 36 37 38 39 
+
+***Searching junkyard for part 40***
+HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 2 good parts ( 36 37 )
+HT     with 7 broken parts ( 40 37 38 34 1 3 36 ) and 6 good parts ( 2 5 31 33 35 39 )
+tank1  with 3 broken parts ( 8 9 1 ) and 5 good parts ( 2 3 4 5 11 )
+tank2  with 2 broken parts ( 6 4 ) and 8 good parts ( 2 8 10 12 14 16 18 20 )
+tank3  with 3 broken parts ( 12 33 24 ) and 8 good parts ( 3 6 9 15 18 21 27 30 )
+wheel1 with 7 broken parts ( 36 33 34 37 40 31 35 ) and 3 good parts ( 32 38 39 )
+wheel2 with 6 broken parts ( 37 36 43 44 45 41 ) and 4 good parts ( 38 39 40 42 )
+--MATCH. JUNK V'S PART REMOVED--
+List of good parts: 38 39 42 
+--CURRENT V'S BAD PART REMOVED AND ADDED TO GOOD PARTS--
+List of good parts: 40 32 5 1 2 3 4 31 33 34 36 37 38 39 
+
+***Searching junkyard for part 35***
+HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 2 good parts ( 36 37 )
+HT     with 7 broken parts ( 40 37 38 34 1 3 36 ) and 6 good parts ( 2 5 31 33 35 39 )
+--MATCH. JUNK V'S PART REMOVED--
+List of good parts: 2 5 31 33 39 
+--CURRENT V'S BAD PART REMOVED AND ADDED TO GOOD PARTS--
+List of good parts: 35 40 32 5 1 2 3 4 31 33 34 36 37 38 39 
+number of broken parts = 0
+
+***TESTING SITE 1 IS EMPTY***
+
+***TESTING SITE 2 IS EMPTY***
+
+***TESTING SITE 3 IS EMPTY***
+
+***Printing repair bay statuses***
+Repair bay 1:
+Available? no	Time left for repair job: 9
+Current vehicle:
+tank1  with 0 broken parts ( ) and 11 good parts ( 7 1 2 4 3 5 6 8 9 10 11 )
+Repair bay 2:
+Available? no	Time left for repair job: 33
+Current vehicle:
+tank2  with 0 broken parts ( ) and 11 good parts ( 22 6 10 2 4 8 12 14 16 18 20 )
+Repair bay 3:
+Available? no	Time left for repair job: 107
+Current vehicle:
+HT     with 0 broken parts ( ) and 15 good parts ( 35 40 32 5 1 2 3 4 31 33 34 36 37 38 39 )
+***End repair bay printout***
+
+***Printing vehicle repair queue***
+***There are 0 vehicles total***
+
+***Printing priority queue***
+***There are 0 vehicles total***
+
+***Printing junkyard***
+HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 2 good parts ( 36 37 )
+HT     with 7 broken parts ( 40 37 38 34 1 3 36 ) and 5 good parts ( 2 5 31 33 39 )
+tank1  with 3 broken parts ( 8 9 1 ) and 5 good parts ( 2 3 4 5 11 )
+tank2  with 2 broken parts ( 6 4 ) and 8 good parts ( 2 8 10 12 14 16 18 20 )
+tank3  with 3 broken parts ( 12 33 24 ) and 8 good parts ( 3 6 9 15 18 21 27 30 )
+wheel1 with 7 broken parts ( 36 33 34 37 40 31 35 ) and 3 good parts ( 32 38 39 )
+wheel2 with 6 broken parts ( 37 36 43 44 45 41 ) and 3 good parts ( 38 39 42 )
+HT     with 3 broken parts ( 34 39 2 ) and 12 good parts ( 1 3 4 5 31 32 33 35 36 37 38 40 )
+***There are 8 vehicles total***
+
+***Adding to supply depot***
+--2 added to [6]--
+--3 added to [12]--
+--2 added to [30]--
+--4 added to [31]--
+***End of resupply***
+
+***Printing supply depot***
+[1]:  0 remain	[2]:  0 remain	[3]:  4 remain	[4]:  2 remain	[5]:  4 remain	
+[6]:  6 remain	[7]:  3 remain	[8]:  3 remain	[9]:  2 remain	[10]: 3 remain	
+[11]: 4 remain	[12]: 6 remain	[13]: 2 remain	[14]: 4 remain	[15]: 3 remain	
+[16]: 4 remain	[17]: 3 remain	[18]: 2 remain	[19]: 3 remain	[20]: 3 remain	
+[21]: 3 remain	[22]: 4 remain	[23]: 3 remain	[24]: 4 remain	[25]: 4 remain	
+[26]: 0 remain	[27]: 3 remain	[28]: 3 remain	[29]: 4 remain	[30]: 6 remain	
+[31]: 8 remain	[32]: 2 remain	[33]: 3 remain	[34]: 0 remain	[35]: 4 remain	
+[36]: 4 remain	[37]: 4 remain	[38]: 3 remain	[39]: 4 remain	[40]: 3 remain	
+[41]: 3 remain	[42]: 2 remain	[43]: 4 remain	[44]: 4 remain	[45]: 3 remain	
+***End supply depot printout***
+-----------------------------
+***END OF DAY 1***
+-----------------------------
+
+ SIMULATING DAY 2
+-----------------------------
+***MAKING 5 VEHICLES***
+Made tank2  with 2 broken parts ( 10 4 ) and 9 good parts ( 2 6 8 12 14 16 18 20 22 )
+--Adding to repair queue--
+Made HT     with 5 broken parts ( 3 38 35 5 1 ) and 10 good parts ( 2 4 31 32 33 34 36 37 39 40 )
+--Adding to repair queue--
+Made tank1  with 4 broken parts ( 1 9 2 8 ) and 7 good parts ( 3 4 5 6 7 10 11 )
+--Adding to repair queue--
+Made wheel2 with 4 broken parts ( 36 41 42 44 ) and 6 good parts ( 37 38 39 40 43 45 )
+--Adding to junkyard--
+Made HT     with 5 broken parts ( 36 3 31 39 5 ) and 10 good parts ( 1 2 4 32 33 34 35 37 38 40 )
+--Adding to repair queue--
+
+***No new vehicle added to bay 1. Repairing current***
+number of broken parts = 0
+
+***No new vehicle added to bay 2. Repairing current***
+number of broken parts = 0
+
+***No new vehicle added to bay 3. Repairing current***
+number of broken parts = 0
+
+***TESTING SITE 1 IS EMPTY***
+
+***TESTING SITE 2 IS EMPTY***
+
+***TESTING SITE 3 IS EMPTY***
+
+***Printing repair bay statuses***
+Repair bay 1:
+Available? no	Time left for repair job: 4
+Current vehicle:
+tank1  with 0 broken parts ( ) and 11 good parts ( 7 1 2 4 3 5 6 8 9 10 11 )
+Repair bay 2:
+Available? no	Time left for repair job: 28
+Current vehicle:
+tank2  with 0 broken parts ( ) and 11 good parts ( 22 6 10 2 4 8 12 14 16 18 20 )
+Repair bay 3:
+Available? no	Time left for repair job: 102
+Current vehicle:
+HT     with 0 broken parts ( ) and 15 good parts ( 35 40 32 5 1 2 3 4 31 33 34 36 37 38 39 )
+***End repair bay printout***
+
+***Printing vehicle repair queue***
+tank2  with 2 broken parts ( 10 4 ) and 9 good parts ( 2 6 8 12 14 16 18 20 22 )
+HT     with 5 broken parts ( 3 38 35 5 1 ) and 10 good parts ( 2 4 31 32 33 34 36 37 39 40 )
+tank1  with 4 broken parts ( 1 9 2 8 ) and 7 good parts ( 3 4 5 6 7 10 11 )
+HT     with 5 broken parts ( 36 3 31 39 5 ) and 10 good parts ( 1 2 4 32 33 34 35 37 38 40 )
+***There are 4 vehicles total***
+
+***Printing priority queue***
+***There are 0 vehicles total***
+
+***Printing junkyard***
+wheel2 with 4 broken parts ( 36 41 42 44 ) and 6 good parts ( 37 38 39 40 43 45 )
+HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 2 good parts ( 36 37 )
+HT     with 7 broken parts ( 40 37 38 34 1 3 36 ) and 5 good parts ( 2 5 31 33 39 )
+tank1  with 3 broken parts ( 8 9 1 ) and 5 good parts ( 2 3 4 5 11 )
+tank2  with 2 broken parts ( 6 4 ) and 8 good parts ( 2 8 10 12 14 16 18 20 )
+tank3  with 3 broken parts ( 12 33 24 ) and 8 good parts ( 3 6 9 15 18 21 27 30 )
+wheel1 with 7 broken parts ( 36 33 34 37 40 31 35 ) and 3 good parts ( 32 38 39 )
+wheel2 with 6 broken parts ( 37 36 43 44 45 41 ) and 3 good parts ( 38 39 42 )
+HT     with 3 broken parts ( 34 39 2 ) and 12 good parts ( 1 3 4 5 31 32 33 35 36 37 38 40 )
+***There are 9 vehicles total***
+
+***Adding to supply depot***
+--3 added to [5]--
+--2 added to [12]--
+***End of resupply***
+
+***Printing supply depot***
+[1]:  0 remain	[2]:  0 remain	[3]:  4 remain	[4]:  2 remain	[5]:  7 remain	
+[6]:  6 remain	[7]:  3 remain	[8]:  3 remain	[9]:  2 remain	[10]: 3 remain	
+[11]: 4 remain	[12]: 8 remain	[13]: 2 remain	[14]: 4 remain	[15]: 3 remain	
+[16]: 4 remain	[17]: 3 remain	[18]: 2 remain	[19]: 3 remain	[20]: 3 remain	
+[21]: 3 remain	[22]: 4 remain	[23]: 3 remain	[24]: 4 remain	[25]: 4 remain	
+[26]: 0 remain	[27]: 3 remain	[28]: 3 remain	[29]: 4 remain	[30]: 6 remain	
+[31]: 8 remain	[32]: 2 remain	[33]: 3 remain	[34]: 0 remain	[35]: 4 remain	
+[36]: 4 remain	[37]: 4 remain	[38]: 3 remain	[39]: 4 remain	[40]: 3 remain	
+[41]: 3 remain	[42]: 2 remain	[43]: 4 remain	[44]: 4 remain	[45]: 3 remain	
+***End supply depot printout***
+-----------------------------
+***END OF DAY 2***
+-----------------------------
+
+ SIMULATING DAY 3
+-----------------------------
+***MAKING 4 VEHICLES***
+Made tank1  with 2 broken parts ( 4 2 ) and 9 good parts ( 1 3 5 6 7 8 9 10 11 )
+--Adding to repair queue--
+Made wheel2 with 3 broken parts ( 44 43 40 ) and 7 good parts ( 36 37 38 39 41 42 45 )
+--Adding to repair queue--
+Made tank2  with 2 broken parts ( 2 22 ) and 9 good parts ( 4 6 8 10 12 14 16 18 20 )
+--Adding to repair queue--
+Made tank3  with 3 broken parts ( 30 21 3 ) and 8 good parts ( 6 9 12 15 18 24 27 33 )
+--Adding to repair queue--
+
+***No new vehicle added to bay 1. Repairing current***
+number of broken parts = 0
+***Moving vehicle to testing site***
+--Added to test site 1--
+
+***No new vehicle added to bay 2. Repairing current***
+number of broken parts = 0
+
+***No new vehicle added to bay 3. Repairing current***
+number of broken parts = 0
+
+***TESTING SITE 1***
+List of good parts: 7 1 2 4 3 5 6 8 9 10 11 
+--Part  7 passed--
+--Part  1 passed--
+--Part  2 passed--
+--Part  4 passed--
+--Part  3 failed--
+--Part  5 passed--
+--Part  6 passed--
+--Part  8 passed--
+--Part  9 passed--
+--Part 10 passed--
+--Part 11 passed--
+***Still broken. Sending to priority queue***
+
+***TESTING SITE 2 IS EMPTY***
+
+***TESTING SITE 3 IS EMPTY***
+
+***Printing repair bay statuses***
+Repair bay 1:
+Available? yes	Time left for repair job: empty
+Current vehicle:
+empty
+Repair bay 2:
+Available? no	Time left for repair job: 23
+Current vehicle:
+tank2  with 0 broken parts ( ) and 11 good parts ( 22 6 10 2 4 8 12 14 16 18 20 )
+Repair bay 3:
+Available? no	Time left for repair job: 97
+Current vehicle:
+HT     with 0 broken parts ( ) and 15 good parts ( 35 40 32 5 1 2 3 4 31 33 34 36 37 38 39 )
+***End repair bay printout***
+
+***Printing vehicle repair queue***
+tank2  with 2 broken parts ( 10 4 ) and 9 good parts ( 2 6 8 12 14 16 18 20 22 )
+HT     with 5 broken parts ( 3 38 35 5 1 ) and 10 good parts ( 2 4 31 32 33 34 36 37 39 40 )
+tank1  with 4 broken parts ( 1 9 2 8 ) and 7 good parts ( 3 4 5 6 7 10 11 )
+HT     with 5 broken parts ( 36 3 31 39 5 ) and 10 good parts ( 1 2 4 32 33 34 35 37 38 40 )
+tank1  with 2 broken parts ( 4 2 ) and 9 good parts ( 1 3 5 6 7 8 9 10 11 )
+wheel2 with 3 broken parts ( 44 43 40 ) and 7 good parts ( 36 37 38 39 41 42 45 )
+tank2  with 2 broken parts ( 2 22 ) and 9 good parts ( 4 6 8 10 12 14 16 18 20 )
+tank3  with 3 broken parts ( 30 21 3 ) and 8 good parts ( 6 9 12 15 18 24 27 33 )
+***There are 8 vehicles total***
+
+***Printing priority queue***
+tank1  with 1 broken parts ( 3 ) and 10 good parts ( 11 10 9 8 6 5 4 2 1 7 )
+Time score = 3
+***There are 1 vehicles total***
+
+***Printing junkyard***
+wheel2 with 4 broken parts ( 36 41 42 44 ) and 6 good parts ( 37 38 39 40 43 45 )
+HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 2 good parts ( 36 37 )
+HT     with 7 broken parts ( 40 37 38 34 1 3 36 ) and 5 good parts ( 2 5 31 33 39 )
+tank1  with 3 broken parts ( 8 9 1 ) and 5 good parts ( 2 3 4 5 11 )
+tank2  with 2 broken parts ( 6 4 ) and 8 good parts ( 2 8 10 12 14 16 18 20 )
+tank3  with 3 broken parts ( 12 33 24 ) and 8 good parts ( 3 6 9 15 18 21 27 30 )
+wheel1 with 7 broken parts ( 36 33 34 37 40 31 35 ) and 3 good parts ( 32 38 39 )
+wheel2 with 6 broken parts ( 37 36 43 44 45 41 ) and 3 good parts ( 38 39 42 )
+HT     with 3 broken parts ( 34 39 2 ) and 12 good parts ( 1 3 4 5 31 32 33 35 36 37 38 40 )
+***There are 9 vehicles total***
+
+***Adding to supply depot***
+--2 added to [29]--
+--2 added to [45]--
+***End of resupply***
+
+***Printing supply depot***
+[1]:  0 remain	[2]:  0 remain	[3]:  4 remain	[4]:  2 remain	[5]:  7 remain	
+[6]:  6 remain	[7]:  3 remain	[8]:  3 remain	[9]:  2 remain	[10]: 3 remain	
+[11]: 4 remain	[12]: 8 remain	[13]: 2 remain	[14]: 4 remain	[15]: 3 remain	
+[16]: 4 remain	[17]: 3 remain	[18]: 2 remain	[19]: 3 remain	[20]: 3 remain	
+[21]: 3 remain	[22]: 4 remain	[23]: 3 remain	[24]: 4 remain	[25]: 4 remain	
+[26]: 0 remain	[27]: 3 remain	[28]: 3 remain	[29]: 6 remain	[30]: 6 remain	
+[31]: 8 remain	[32]: 2 remain	[33]: 3 remain	[34]: 0 remain	[35]: 4 remain	
+[36]: 4 remain	[37]: 4 remain	[38]: 3 remain	[39]: 4 remain	[40]: 3 remain	
+[41]: 3 remain	[42]: 2 remain	[43]: 4 remain	[44]: 4 remain	[45]: 5 remain	
+***End supply depot printout***
+-----------------------------
+***END OF DAY 3***
+-----------------------------
+
+ SIMULATING DAY 4
+-----------------------------
+***MAKING 2 VEHICLES***
+Made wheel1 with 3 broken parts ( 34 39 40 ) and 7 good parts ( 31 32 33 35 36 37 38 )
+--Adding to repair queue--
+Made tank3  with 3 broken parts ( 6 9 18 ) and 8 good parts ( 3 12 15 21 24 27 30 33 )
+--Adding to repair queue--
+
+***Adding from priority queue into bay 1***
+number of broken parts = 1
+partList[0] = 3   
+
+***Searching junkyard for part 3***
+wheel2 with 4 broken parts ( 36 41 42 44 ) and 6 good parts ( 37 38 39 40 43 45 )
+HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 2 good parts ( 36 37 )
+HT     with 7 broken parts ( 40 37 38 34 1 3 36 ) and 5 good parts ( 2 5 31 33 39 )
+tank1  with 3 broken parts ( 8 9 1 ) and 5 good parts ( 2 3 4 5 11 )
+--MATCH. JUNK V'S PART REMOVED--
+List of good parts: 2 4 5 11 
+--CURRENT V'S BAD PART REMOVED AND ADDED TO GOOD PARTS--
+List of good parts: 3 11 10 9 8 6 5 4 2 1 7 
+number of broken parts = 0
+***Moving vehicle to testing site***
+--Added to test site 1--
+
+***No new vehicle added to bay 2. Repairing current***
+number of broken parts = 0
+
+***No new vehicle added to bay 3. Repairing current***
+number of broken parts = 0
+
+***TESTING SITE 1***
+List of good parts: 3 11 10 9 8 6 5 4 2 1 7 
+--Part  3 failed--
+--Part 11 passed--
+--Part 10 passed--
+--Part  9 passed--
+--Part  8 passed--
+--Part  6 failed--
+--Part  5 passed--
+--Part  4 passed--
+--Part  2 passed--
+--Part  1 passed--
+--Part  7 passed--
+***Still broken. Sending to priority queue***
+
+***TESTING SITE 2 IS EMPTY***
+
+***TESTING SITE 3 IS EMPTY***
+
+***Printing repair bay statuses***
+Repair bay 1:
+Available? yes	Time left for repair job: empty
+Current vehicle:
+empty
+Repair bay 2:
+Available? no	Time left for repair job: 18
+Current vehicle:
+tank2  with 0 broken parts ( ) and 11 good parts ( 22 6 10 2 4 8 12 14 16 18 20 )
+Repair bay 3:
+Available? no	Time left for repair job: 92
+Current vehicle:
+HT     with 0 broken parts ( ) and 15 good parts ( 35 40 32 5 1 2 3 4 31 33 34 36 37 38 39 )
+***End repair bay printout***
+
+***Printing vehicle repair queue***
+tank2  with 2 broken parts ( 10 4 ) and 9 good parts ( 2 6 8 12 14 16 18 20 22 )
+HT     with 5 broken parts ( 3 38 35 5 1 ) and 10 good parts ( 2 4 31 32 33 34 36 37 39 40 )
+tank1  with 4 broken parts ( 1 9 2 8 ) and 7 good parts ( 3 4 5 6 7 10 11 )
+HT     with 5 broken parts ( 36 3 31 39 5 ) and 10 good parts ( 1 2 4 32 33 34 35 37 38 40 )
+tank1  with 2 broken parts ( 4 2 ) and 9 good parts ( 1 3 5 6 7 8 9 10 11 )
+wheel2 with 3 broken parts ( 44 43 40 ) and 7 good parts ( 36 37 38 39 41 42 45 )
+tank2  with 2 broken parts ( 2 22 ) and 9 good parts ( 4 6 8 10 12 14 16 18 20 )
+tank3  with 3 broken parts ( 30 21 3 ) and 8 good parts ( 6 9 12 15 18 24 27 33 )
+wheel1 with 3 broken parts ( 34 39 40 ) and 7 good parts ( 31 32 33 35 36 37 38 )
+tank3  with 3 broken parts ( 6 9 18 ) and 8 good parts ( 3 12 15 21 24 27 30 33 )
+***There are 10 vehicles total***
+
+***Printing priority queue***
+tank1  with 2 broken parts ( 6 3 ) and 9 good parts ( 7 1 2 4 5 8 9 10 11 )
+Time score = 9
+***There are 1 vehicles total***
+
+***Printing junkyard***
+wheel2 with 4 broken parts ( 36 41 42 44 ) and 6 good parts ( 37 38 39 40 43 45 )
+HT     with 10 broken parts ( 39 32 34 40 31 4 33 35 38 3 ) and 2 good parts ( 36 37 )
+HT     with 7 broken parts ( 40 37 38 34 1 3 36 ) and 5 good parts ( 2 5 31 33 39 )
+tank1  with 3 broken parts ( 8 9 1 ) and 4 good parts ( 2 4 5 11 )
+tank2  with 2 broken parts ( 6 4 ) and 8 good parts ( 2 8 10 12 14 16 18 20 )
+tank3  with 3 broken parts ( 12 33 24 ) and 8 good parts ( 3 6 9 15 18 21 27 30 )
+wheel1 with 7 broken parts ( 36 33 34 37 40 31 35 ) and 3 good parts ( 32 38 39 )
+wheel2 with 6 broken parts ( 37 36 43 44 45 41 ) and 3 good parts ( 38 39 42 )
+HT     with 3 broken parts ( 34 39 2 ) and 12 good parts ( 1 3 4 5 31 32 33 35 36 37 38 40 )
+***There are 9 vehicles total***
+
+***Adding to supply depot***
+--3 added to [26]--
+--2 added to [29]--
+--2 added to [37]--
+***End of resupply***
+
+***Printing supply depot***
+[1]:  0 remain	[2]:  0 remain	[3]:  4 remain	[4]:  2 remain	[5]:  7 remain	
+[6]:  6 remain	[7]:  3 remain	[8]:  3 remain	[9]:  2 remain	[10]: 3 remain	
+[11]: 4 remain	[12]: 8 remain	[13]: 2 remain	[14]: 4 remain	[15]: 3 remain	
+[16]: 4 remain	[17]: 3 remain	[18]: 2 remain	[19]: 3 remain	[20]: 3 remain	
+[21]: 3 remain	[22]: 4 remain	[23]: 3 remain	[24]: 4 remain	[25]: 4 remain	
+[26]: 3 remain	[27]: 3 remain	[28]: 3 remain	[29]: 8 remain	[30]: 6 remain	
+[31]: 8 remain	[32]: 2 remain	[33]: 3 remain	[34]: 0 remain	[35]: 4 remain	
+[36]: 4 remain	[37]: 6 remain	[38]: 3 remain	[39]: 4 remain	[40]: 3 remain	
+[41]: 3 remain	[42]: 2 remain	[43]: 4 remain	[44]: 4 remain	[45]: 5 remain	
+***End supply depot printout***
+-----------------------------
+***END OF DAY 4***
+-----------------------------
+
+
+	FINISHED
+-----------------------------
